@@ -1,14 +1,16 @@
 import "./form.css"
 
-import EducationalExperiences from "./form/EducationalExperiences";
 import GeneralInfo from "./form/GeneralInformation";
+import EducationalExperiences from "./form/EducationalExperiences";
+import ProfessionalExperiences from "./form/ProfessionalExperiences";
 
 export default function Form() {
     return (
         <form className="cv-form">
             <GeneralInfo/>
             <EducationalExperiences/>
-            <button type="submit">Submit</button>
+            <ProfessionalExperiences/>
+            <button className="submit-button" type="submit">Submit</button>
         </form>
     )
 }
