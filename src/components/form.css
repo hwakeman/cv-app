@@ -4,19 +4,17 @@
     justify-content:stretch;
 
     min-height: 500px;
-    min-width: 50vw;
+    min-width: 45vw;
 
     border: 3px solid black;
 
     padding: 20px;
 }
 
-.general-info, .educational-experiences, .professional-experiences{
+.general-info, .educational-experiences, .professional-experiences {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    flex: 1;
 
     min-height: 100px;
 
@@ -34,7 +32,7 @@ button {
 }
 
 .submit-button {
-    width: 10%;
+    width: 15%;
 
     margin-top: 10px;
 }
