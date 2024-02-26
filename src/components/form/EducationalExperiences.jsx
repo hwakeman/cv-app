@@ -23,11 +23,11 @@ export default function EducationalExperiences( {cv, changeCv} ) {
                     <div className='professional-experience' key={uuidv4()}>
                         <label>
                             School Name:
-                            <input value={educationalExperience.schoolName} onChange={e => educationalExperience.companyName = e.target.value}/>
+                            <input value={educationalExperience.schoolName} onChange={e => educationalExperience.schoolName = e.target.value}/>
                         </label>
                         <label>
                             Title of Study:
-                            <input value={educationalExperience.titleOfStudy} onChange={e => educationalExperience.positionTitle = e.target.value}/>
+                            <input value={educationalExperience.titleOfStudy} onChange={e => educationalExperience.titleOfStudy = e.target.value}/>
                         </label>
                         <label>
                             Start Date:
